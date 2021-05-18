@@ -1,6 +1,9 @@
 .features {
     position: relative;
     display: flex;
+    @include for-large-down {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 399px) {
@@ -20,7 +23,7 @@
 }
 
 .features__subtitle {
-    color: rgba(0, 155, 77, 1);
+    color: $text-color-green;
     font-size: 22px;
     font-weight: 700;
     line-height: 34px;
@@ -53,7 +56,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    color: #3142C6;
+    color: $color-button-get-started;
     margin: 0;
     margin-left: 15px;
 }
@@ -64,7 +67,7 @@
     margin-top: 8px;
     margin-bottom: 0;
     padding-bottom: 20px;
-    border-bottom: 3px solid rgba(49, 66, 198, 1);
+    border-bottom: 3px solid $color-button-get-started;
     ;
 }
 

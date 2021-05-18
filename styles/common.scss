@@ -1,0 +1,22 @@
+.action-button {
+    background: $color-button-get-started;
+    color: $headline-background-color;
+    width: 160px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+}
+
+.hide__desctop {
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.hide__mobile {
+    @include for-large-down {
+        display: none;
+    }
+}
