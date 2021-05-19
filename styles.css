@@ -158,6 +158,7 @@
   justify-content: center;
   align-items: center;
   margin: 15px 15px 0px 15px;
+  padding: 0;
 }
 @media screen and (min-width: 1400px) {
   .audience__gallery-item {
@@ -181,6 +182,9 @@
     margin-top: 0;
   }
 }
+.audience__gallery-item:hover {
+  background-color: #3141C5;
+}
 .audience__gallery-item_selected {
   background-color: #fff;
   width: 290px;
@@ -203,9 +207,6 @@
     margin-left: 30px;
     margin-top: 0;
   }
-}
-.audience__gallery-item_selected:hover {
-  background-color: #3141C5;
 }
 .audience__image {
   margin-top: 22px;
