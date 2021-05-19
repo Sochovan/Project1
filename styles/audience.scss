@@ -104,7 +104,7 @@
             }
         }
         &__gallery-item_selected {
-            background-color: #3141C5;
+            background-color: $headline-background-color;
             width: 290px;
             height: 300px;
             border-radius: 8px;
@@ -123,6 +123,12 @@
                 margin-left: 30px;
                 margin-top: 0;
             }
+            &:hover {
+                background-color: #3141C5;
+            }
+        }
+        &__image {
+            margin-top: 22px;
         }
         &__image-caption {
             font-size: 22px;

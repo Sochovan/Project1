@@ -183,7 +183,7 @@
   }
 }
 .audience__gallery-item_selected {
-  background-color: #3141C5;
+  background-color: #fff;
   width: 290px;
   height: 300px;
   border-radius: 8px;
@@ -204,6 +204,12 @@
     margin-left: 30px;
     margin-top: 0;
   }
+}
+.audience__gallery-item_selected:hover {
+  background-color: #3141C5;
+}
+.audience__image {
+  margin-top: 22px;
 }
 .audience__image-caption {
   font-size: 22px;
