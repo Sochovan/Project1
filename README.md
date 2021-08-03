@@ -1,7 +1,6 @@
-
 # Layout Sample Project
 
-### https://sochovan.github.io/Project1/
+### https://sochovan.github.io/website-project/
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
