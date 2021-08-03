@@ -14,13 +14,13 @@
   }
 }
 
-.hide__desctop {
+.hide_desctop {
   @include for-large-up {
     display: none;
   }
 }
 
-.hide__mobile {
+.hide_mobile {
   @include for-large-down {
     display: none;
   }
